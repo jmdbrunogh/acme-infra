@@ -5,6 +5,7 @@ module "dev_rg" {
   tags = {
     environment = "development"
     owner       = "devops-team"
+    project     = "automation_acme"
   }
 }
 
